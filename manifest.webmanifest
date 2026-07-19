@@ -1,16 +1,29 @@
 {
-  "name": "Carnet PPL — Coach Guidé 6 Mois",
+  "name": "Carnet PPL — Push Pull Legs",
   "short_name": "Carnet PPL",
   "description": "Coach d'entraînement PPL guidé : séances animées, chrono de repos, surcharge progressive et statistiques.",
   "start_url": "index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#0f0a06",
-  "theme_color": "#0f0a06",
+  "background_color": "#241F1F",
+  "theme_color": "#241F1F",
   "orientation": "portrait-primary",
-  "categories": ["fitness", "sports"],
+  "categories": [
+    "fitness",
+    "sports"
+  ],
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }

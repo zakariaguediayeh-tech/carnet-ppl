@@ -1,26 +1,20 @@
-# Carnet PPL Coach — PWA installable
+# Carnet PPL — v3
 
-Coach d'entraînement PPL guidé (séances animées avec GIF, chrono de repos, surcharge progressive). Version orange. Installable comme "app" sur Android/iOS via GitHub Pages.
+## Installation
+Uploader tout le contenu de ce dossier à la racine du repo GitHub `carnet-ppl`,
+en conservant la structure (le dossier `gifs/` doit rester un dossier).
 
-## Fichiers (à mettre à la racine du dépôt)
-- `index.html` — l'application complète (GIF inclus, fonctionne hors-ligne)
-- `manifest.webmanifest` — métadonnées d'installation
-- `sw.js` — service worker (cache hors-ligne)
-- `icon-192.png`, `icon-512.png` — icônes de l'app
+## Nouveautés v3
+- Programme réorganisé : 3 exercices par muscle couvrant tous les faisceaux
+- Cycle par dates réelles (plus de semaines figées)
+- Ordre libre des exercices : clique sur n'importe lequel pour le lancer
+- Stockage IndexedDB (résiste au nettoyage du cache)
+- Export / Import JSON versionné
+- Nouvelle palette et 23 GIFs de démonstration
 
-## Publier sur GitHub Pages
-1. Dans ton dépôt GitHub, remplace les anciens fichiers par ceux-ci (Add file → Upload files → glisser-déposer → Commit).
-2. Settings → Pages → Source « Deploy from a branch », branche `main`, dossier `/ (root)`, Save.
-3. Attends ~1 min. L'app est en ligne sur `https://<ton-user>.github.io/<repo>/`.
+## Structure du programme
+PUSH  — Pecs ×3 · Épaules ×3 · Triceps ×3
+PULL  — Dos ×3 · Biceps ×3
+LEGS  — Presse · Leg curl · Abduction hanches · Mollets · Abdos · Cardio
 
-## Mettre à jour (important)
-Le cache hors-ligne a été passé en `v2` : à la prochaine ouverture, l'ancienne version verte sera automatiquement remplacée par la nouvelle. Si tu vois encore l'ancienne, ferme puis rouvre l'app une fois (connecté à internet).
-
-## Installer sur le téléphone
-- Android (Chrome) : ouvre le lien → menu ⋮ → « Installer l'application ».
-- iPhone (Safari) : Partager → « Sur l'écran d'accueil ».
-
-Tes données restent sur l'appareil (Export/Import JSON dans l'onglet Stats pour sauvegarder ou changer d'appareil).
-
-## Vrai APK (optionnel)
-https://www.pwabuilder.com → colle l'URL GitHub Pages → génère le package Android.
+Le cycle n'avance que lorsqu'une séance est validée.
