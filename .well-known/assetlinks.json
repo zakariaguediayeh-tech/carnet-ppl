@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.zakariaguediayeh_tech.twa",
+        "sha256_cert_fingerprints": ["CC:1B:55:63:62:D4:A8:93:7A:51:0C:93:11:F7:73:7A:6F:C4:BF:FD:5C:8C:25:5D:B0:D0:28:DA:6D:01:BB:C5"]
+      }
+    }]
